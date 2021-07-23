@@ -9,3 +9,9 @@ function help() {
 
     synth.speak(utterThis);
 }
+function repeat() {
+    repeat(help());
+}
+function stop() {
+    pause(repeat());
+}
